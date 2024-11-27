@@ -308,6 +308,9 @@
 
 3. **Вычисление выражений:**
     ```python
+        """
+        Вычисляет арифметическое выражение, используя операции (+, -, *, /).
+        """
         def evaluate_expression(self, expr):
         if isinstance(expr, tuple):
             op = expr[0]
@@ -328,6 +331,9 @@
    
 4. **Обработка функций:**
     ```python
+        """
+        Вызывает встроенные функции (например, pow(), print()) с аргументами.
+        """
        def call_function(self, func_name, args):
         if func_name == 'pow':
             return math.pow(*args)
