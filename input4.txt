@@ -1,0 +1,16 @@
+*> Конфигурация системы логирования
+var logLevel 1
+var logMessage 'Системное сообщение'
+
+?{ print('Уровень логирования:', logLevel) }
+?{ print('Сообщение:', logMessage) }
+
+$[
+  logging : $[
+    level : ?{ logLevel },
+    messages : $[
+      system : ?{ logMessage },
+      error : 'Ошибка системы'
+    ]
+  ]
+]
