@@ -1,0 +1,15 @@
+*> Конфигурация вычислений
+var baseValue 10
+var increment 5
+var multiplier 2
+var exponent 3
+
+$[
+  calculation : $[
+    addition : ?{ baseValue + increment },
+    subtraction : ?{ baseValue - increment },
+    multiplication : ?{ baseValue * multiplier },
+    division : ?{ baseValue / multiplier },
+    power : ?{ pow(baseValue, exponent) }
+  ]
+]
