@@ -1,0 +1,14 @@
+*> Конфигурация базы данных
+var timeout 30
+$[
+  host : 'localhost',
+  port : 5432,
+  credentials : $[
+    user : 'admin',
+    pass : 'secret'
+  ],
+  options : $[
+    timeout : ?{ timeout },
+    ssl : 'true'
+  ]
+]
