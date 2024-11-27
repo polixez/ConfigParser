@@ -456,6 +456,7 @@ py config_parser.py < input.txt > outputs\output1.json 2> outputs\output1.err
 ```
 **Результат (outputs\output1.json):**
 
+![image](https://github.com/user-attachments/assets/a5fd6ea9-941d-440b-b804-28ef854ca534)
 
 ### Пример 2: Конфигурация графического интерфейса
 **Входной файл ```input2.txt```:**
@@ -485,6 +486,7 @@ py config_parser.py < input2.txt > outputs\output2.json 2> outputs\output2.err
 ```
 **Результат (outputs\output2.json):**
 
+![image](https://github.com/user-attachments/assets/bdb242b2-8adb-455e-af86-463a4dbc1567)
 
 ### Пример 3: Использование всех операций и функции ```pow()```
 **Входной файл ```input3.txt```:**
@@ -513,6 +515,7 @@ py config_parser.py < input3.txt > outputs\output3.json 2> outputs\output3.err
 ```
 **Результат (outputs\output3.json):**
 
+![image](https://github.com/user-attachments/assets/e3c6cd62-13af-4b27-b2d6-19c3dab0fa8b)
 
 ### Пример 4: Использование функции ```print()``` и вложенных словарей
 **Входной файл ```input4.txt```:**
@@ -542,6 +545,9 @@ py config_parser.py < input4.txt > outputs\output4.json 2> outputs\output4.err
 ```
 **Результат (outputs\output4.json):**
 
+![image](https://github.com/user-attachments/assets/eb941c84-2df7-4908-9882-622cd2ad7ee5)
+
+![image](https://github.com/user-attachments/assets/36ea4139-ccb4-4e0f-b658-bcf3a63bc3ba)
 
 ---
 
