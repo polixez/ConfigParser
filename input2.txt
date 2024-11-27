@@ -1,0 +1,16 @@
+*> Конфигурация графического интерфейса
+var baseWidth 800
+var baseHeight 600
+var scaleFactor 1.5
+
+$[
+  window : $[
+    width : ?{ baseWidth * scaleFactor },
+    height : ?{ baseHeight * scaleFactor }
+  ],
+  colors : $[
+    background : 'white',
+    foreground : 'black'
+  ],
+  title : 'Мое приложение'
+]
