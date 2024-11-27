@@ -556,6 +556,7 @@ py config_parser.py < input4.txt > outputs\output4.json 2> outputs\output4.err
 
 **Вывод сборки и тестирования (```build.bat```):**
 
+![image](https://github.com/user-attachments/assets/91ca9a74-d5e5-41f1-b4f5-e2c4703d5fe8)
 
 
 ### Проверка корректности результатов
